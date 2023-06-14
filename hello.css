@@ -1,0 +1,44 @@
+body {
+    background-image: url(two.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    border: 20px;
+    background: blue;
+    width: 96%;
+    /* padding: 25 50px; */
+    margin: 2px;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: brown;
+    /* position: fixed; */
+}
+
+li a {
+    float: left;
+    display: ruby-base;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    border-right: 1px solid black;
+    min-width: 20px;
+}
+
+li a:hover {
+    background-color: green;
+}
